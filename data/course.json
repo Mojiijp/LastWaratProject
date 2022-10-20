@@ -1,0 +1,137 @@
+[
+    {
+        "course_id": "01418113",
+        "course_name": "การโปรแกรมคอมพิวเตอร์",
+        "course_name_eng": "(Computer Programming)",
+        "credit": "3(2-2-5)",
+        "course_description": "การโปรแกรมภาษาระดับสูง ชนิด ตัวแปร ข้อความสั่งรับเข้า/ส่งออก ข้อความสั่งเงื่อนไข ข้อความสั่งวนซ้ำ ฟังก์ชัน การกำหนดสาระสำคัญเชิงกระบวนงาน การปรากฏซ้ำ การนำเข้าและส่งออกแฟ้ม โครงสร้างข้อมูลพื้นฐาน การกำหนดสาระสำคัญของข้อมูล การนิยามวัตถุและคลาส ลักษณะประจำและพฤติกรรมของวัตถุการแก้จุดบกพร่อง และการทดสอบโปรแกรม แนวทางการโปรแกรมที่ดี",
+        "course_description_eng": "High-level language programming. Types. Variables. Input/output statements. Conditional statements. Repetition statements. Functions. Procedural abstractions. Recursion. File input and output. Basic data structures. Data abstractions. Objects and class definitions. Object attributes and behaviors. Program debugging and testing. Good programming practice.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418112"
+    },
+    {
+        "course_id": "01418114",
+        "course_name": "วิทยาการคอมพิวเตอร์เบื้องต้น",
+        "course_name_eng": "(Introduction to Computer Science)",
+        "credit": "2(2-0-4)",
+        "course_description": "พัฒนาการของคอมพิวเตอร์ การแทนข้อมูลในคอมพิวเตอร์ ระบบจำนวน องค์ประกอบของฮาร์ดแวร์คอมพิวเตอร์ ตัววัดสมรรถนะของคอมพิวเตอร์ ซอฟต์แวร์ระบบ ตัวแปลภาษาและภาษาการโปรแกรม ความซับซ้อนในระบบคอมพิวเตอร์การจัดองค์การของระบบคอมพิวเตอร์สถาปัตยกรรมไคลเอนต์-เซิร์ฟเวอร์เครือข่ายคอมพิวเตอร์ ความมั่นคงของสารสนเทศ การประยุกต์ระบบคอมพิวเตอร์ในปัจจุบัน จริยธรรมทางคอมพิวเตอร์",
+        "course_description_eng": "Development of computers. Data representation in computers. Number systems. Computer hardware components. Computer performance metrics. System software. Compilers and programming languages. Complexity in computer systems. Computer system organization. Clientserver architecture. Computer networks. Information security. Current applications of computer systems. Computer ethics.",
+        "pre_requisite": ""
+    },
+    {
+        "course_id": "01418132",
+        "course_name": "หลักมูลการคณนา",
+        "course_name_eng": "(Fundamentals of Computing)",
+        "credit": "4(4-0-8)",
+        "course_description": "ทฤษฎีการคำนวณเชิงวิยุต ความน่าจะเป็นและสถิติ การทำให้เกิดผลและการประยุกต์ในวิทยาการคอมพิวเตอร์",
+        "course_description_eng": "Theory of discrete computing. Probability and statistics. Implementation and application in computer science.",
+        "pre_requisite": ""
+    },
+    {
+        "course_id": "01418211",
+        "course_name": "การสร้างซอฟต์แวร์",
+        "course_name_eng": "(Software Construction)",
+        "credit": "3(2-2-5)",
+        "course_description": "การโปรแกรมเชิงวัตถุ วัตถุ คลาส หลักการออกแบบเชิงวัตถุการประกอบ ส่วนการรับทอด ภาวะพหุสัณฐาน ส่วนต่อประสาน คลาสเชิงนามธรรม สิ่งผิดปกติ ลำดับชั้นของชนิด แผนภาพการขึ้นต่อกันระหว่างคลาส ตัวยืนยงในการแทนค่า โครงสร้างข้อมูลพลวัต การโปรแกรมเชิงเหตุการณ์ การรีแฟกเตอร์ แบบรูปการออกแบบ",
+        "course_description_eng": "Object-oriented programming. Objects. Classes. Object-oriented design principles. Composition. Inheritance. Polymorphisms. Interfaces. Abstract classes. Exceptions. Type hierarchy. Class dependency diagrams. Representation invariant. Dynamic data structures. Event-based programming. Refactoring. Design patterns.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418113 หรือ 01418212"
+    },
+    {
+        "course_id": "01418221",
+        "course_name": "ระบบฐานข้อมูลเบื้องต้น",
+        "course_name_eng": "(Fundamentals of Database Systems)",
+        "credit": "3(3-0-6)",
+        "course_description": "แนวคิดเกี่ยวกับฐานข้อมูลเบื้องต้น เป้าหมายของระบบจัดการฐานข้อมูล ความไม่พึ่งพิงของข้อมูล บูรณภาพและความเชื่อถือได้การจัดองค์การเชิงตรรกะและเชิงกายภาพ เค้าร่างและเค้าร่างย่อย ตัวแบบข้อมูล ตัวแบบเชิงสัมพันธ์ บรรทัดฐานข้อมูล ภาษานิยามข้อมูล พจนานุกรมข้อมูล",
+        "course_description_eng": "Introduction to database concepts. Goals of database management system. Data independence. Integrity and reliability. Logical and physical organizations. Schema and subschema. Data models. Relational models. Data normalization. Data description languages. Data dictionary.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418113"
+    },
+    {
+        "course_id": "01418231",
+        "course_name": "โครงสร้างข้อมูล",
+        "course_name_eng": "(Data Structures)",
+        "credit": "3(3-0-6)",
+        "course_description": "โครงสร้างข้อมูล ขั้นตอนวิธีสำหรับใช้งานรายการ กองซ้อน แถวคอย ต้นไม้และกราฟ โครงสร้างแฟ้มและการประมวลผลแฟ้ม",
+        "course_description_eng": "Data structures. Algorithms for implementation of lists, stacks, queues, trees and graphs. File structures and file processing.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418113"
+    },
+    {
+        "course_id": "01418232",
+        "course_name": "การออกแบบและการวิเคราะห์ขั้นตอนวิธี",
+        "course_name_eng": "(Algorithm Design and Analysis)",
+        "credit": "3(3-0-6)",
+        "course_description": "แนวคิดพื้นฐานของขั้นตอนวิธี การวิเคราะห์ขั้นตอนวิธีในเชิงคณิตศาสตร์ การวิเคราะห์ขั้นตอนวิธีการเรียงลำดับและการค้นหา เทคนิคเชิงขั้นตอนวิธี วิธีการออกแบบขั้นตอนวิธี",
+        "course_description_eng": "Basic concepts of algorithms. Mathematical analysis of algorithms. Analysis of sorting and searching algorithms. Algorithmic techniques. Algorithm design methods.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418132 และ 01418231"
+    },
+    {
+        "course_id": "01418233",
+        "course_name": "ภาษาแอสเซมบลีและสถาปัตยกรรมคอมพิวเตอร์",
+        "course_name_eng": "(Assembly Language and Computer Architecture)",
+        "credit": "4(4-0-8)",
+        "course_description": "โครงสร้างของภาษาแอสเซมบลีเทคนิคการกำหนดเลขที่อยู่ แฟ้มรับเข้า/ส่งออก การแบ่งส่วนของโปรแกรมและการเชื่อมโยง การสร้างโปรแกรมภาษาแอสเซมบลี ลักษณะเฉพาะของสถาปัตยกรรมคอมพิวเตอร์ ผลที่มีต่อการออกแบบและสมรรถนะของระบบ ภาวะถ่วงดุลระหว่างราคาต่อสมรรถนะ การออกแบบชุดคำสั่ง ตัวประมวลผลกลาง ระบบรับส่งข้อมูล การทำงานแบบสายท่อ เวกเตอร์และสถาปัตยกรรมแบบริสก์สถาปัตยกรรมแบบขนาน",
+        "course_description_eng": "Assembly language structure. Addressing techniques. File input/output. Program segmentation and linkage. Assembly program construction. Computer architecture characteristics. Effect on the design and performance of system. Price-performance tradeoffs. Instruction sets design. CPU. I/O system. Pipelining. Vector and RISC architecture. Parallel architectures.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418113 และ 01418131 หรือ 01418113 และ 01420245"
+    },
+    {
+        "course_id": "01418321",
+        "course_name": "การวิเคราะห์และการออกแบบระบบ",
+        "course_name_eng": "(System Analysis and Design)",
+        "credit": "3(2-2-5)",
+        "course_description": "ขั้นตอนวิเคราะห์เบื้องต้น เครื่องมือในการวิเคราะห์ระบบ ผังระบบงาน ตารางการตัดสินและต้นไม้การตัดสิน การศึกษาความเป็นไปได้ของปัญหา การวิเคราะห์ความคุ้มค่าในการลงทุน นำเข้า ส่งออกและการออกแบบ การออกแบบวิธีการประมวลผลด้วยคอมพิวเตอร์ การทำเอกสาร การนำไปใช้และการประเมินผล การพิสูจน์การออกแบบกรณีศึกษา",
+        "course_description_eng": "Basic analysis steps. System analysis tools. Systems flowchart. Decision table and decision tree. Feasibility study. Cost effective analysis. Input, output and design. Computer process design. Documentation. Implementation and evaluation. Proving the design. Case studies.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418211 และ 01418221"
+    },
+    {
+        "course_id": "01418331",
+        "course_name": "ระบบปฏิบัติการ",
+        "course_name_eng": "(Operating Systems)",
+        "credit": "4(4-0-8)",
+        "course_description": "พัฒนาการของสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้างระบบปฏิบัติการ กระบวนการและสายโยงใย การจัดกำหนดการ การติดตาย ลำดับขั้นของหน่วยความจำ การจัดการหน่วยความจำ หน่วยความจำเสมือน การจัดการระบบแฟ้ม การจัดการระบบรับเข้า/ส่งออก ความมั่นคง การป้องกัน ระบบปฏิบัติการแบบกระจาย",
+        "course_description_eng": "Development of computer architecture and operating systems. Operating system structure. Processes and threads. Scheduling. Deadlocks. Memory hierarchy. Memory management. Virtual memory. File system management. Input/output system management. Security. Protection. Distributed operating systems.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418233"
+    },
+    {
+        "course_id": "01418332",
+        "course_name": "ความมั่นคงในระบบสารสนเทศ",
+        "course_name_eng": "(Information System Security)",
+        "credit": "3(3-0-6)",
+        "course_description": "ความมั่นคงดิจิทัลเบื้องต้น การตรวจสอบ ภาวะรับผิดชอบและนโยบายความมั่นคง วิทยาการเข้ารหัสลับ ความมั่นคงในการดำเนินการ ความมั่นคงทางกายภาพ เครือข่ายและระบบปฏิบัติการ ความมั่นคงในงานประยุกต์ต่างๆ: การโปรแกรมแบบมั่นคง ความมั่นคงของเว็บและอินเตอร์เน็ตของสรรพสิ่ง",
+        "course_description_eng": "Introduction to digital security. Auditing. Accountability and security policy. Cryptography. Operation security. Physical, network and operating system security. Security in various applications: secure coding, web and Internet of Things security.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418331"
+    },
+    {
+        "course_id": "01418333",
+        "course_name": "ทฤษฎีออโตมาตา",
+        "course_name_eng": "(Automata Theory)",
+        "credit": "2(2-0-4)",
+        "course_description": "แนวคิดเรื่องภาวะจำกัด เครื่องรับรู้ข้อความปรกติ สมบัติปิด เครื่องจักรชนิดลำดับ และเครื่องสื่อนำ ภาวะจำกัด การหาภาวะต่ำสุด ไวยากรณ์ของภาษารูปนัย เครื่องจักรทัวริง",
+        "course_description_eng": "Finite state concept. Acceptors. Regular expressions. Closure properties. Sequential machine and finite state transducers.State minimization. Formal language grammars.Turing machines.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418132"
+    },
+    {
+        "course_id": "01418334",
+        "course_name": "เทคนิคตัวแปลโปรแกรม",
+        "course_name_eng": "(Compiler Techniques)",
+        "credit": "2(2-0-4)",
+        "course_description": "ตัวแปลโปรแกรมและโปรแกรมแปลภาษา เฟสของตัวแปลโปรแกรม สัญกรณ์และแนวคิดของภาษาและไวยากรณ์ การวิเคราะห์ศัพท์ ต้นไม้แจงส่วนและการแปลง ความกำกวม เทคนิคการแจงส่วน ตารางสัญลักษณ์ การแทนระหว่างกลาง การวิเคราะห์ความหมายและการก่อกำเนิดรหัส",
+        "course_description_eng": "Compilers and translators. Phases of a compiler. Notation and concepts for languages and grammars. Lexical analysis. Parse trees and derivations. Ambiguity. Parsing techniques. Symbol table. Intermediate representation. Semantic analysis and code generation.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418333 หรือพร้อมกัน"
+    },
+    {
+        "course_id": "01418341",
+        "course_name": "ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ",
+        "course_name_eng": "(Intellectual Properties and Professional Ethics)",
+        "credit": "3(3-0-6)",
+        "course_description": "ประเภทของทรัพย์สินทางปัญญา การได้มาซึ่งลิขสิทธิ์ สิทธิแต่เพียงผู้เดียวของเจ้าของลิขสิทธิ์การละเมิดลิขสิทธิ์ การใช้โดยธรรม ใบอนุญาตของซอฟต์แวร์เสรีใบอนุญาตของซอฟต์แวร์เปิดเผยรหัส ใบอนุญาตให้ใช้โปรแกรมคอมพิวเตอร์ ครีเอทีฟคอมมอนส์สิทธิบัตร เครื่องหมายการค้าและเครื่องหมายการบริการ นโยบายส่วนบุคคล อาชญากรรมคอมพิวเตอร์กรณีศึกษา",
+        "course_description_eng": "Categories of intellectual property. Acquisition of copyright. Exclusive rights of copyright holder. Copyright infringement. Fair use. Free software license. Open source software license. Shrink wrap license. Creative Commons. Patent. Trade mark and service mark. Privacy policy. Computer crime. Case studies.",
+        "pre_requisite": ""
+    },
+    {
+        "course_id": "01418351",
+        "course_name": "หลักการการสื่อสารคอมพิวเตอร์และการประมวลผลบนคลาวด์",
+        "course_name_eng": "(Computer Communications and Cloud Computing Principles)",
+        "credit": "3(3-0-6)",
+        "course_description": "แนวคิดของเครือข่ายการสื่อสารแบบมีสาย ไร้สาย และเซลลูลาร์องค์ประกอบของการสื่อสาร คอมพิวเตอร์และเครือข่าย ชนิดของเครือข่ายคอมพิวเตอร์ มาตรฐานและระดับชั้นโพรโทคอล โพรโทคอลชั้นโปรแกรมประยุกต์ สถาปัตยกรรมและการโปรแกรมโปรแกรมประยุกต์บนเครือข่าย โพรโทคอลชั้นทรานสปอร์ต เครือข่ายแบบกำหนดโดยซอฟต์แวร์ การประมวลผลบนคลาวด์องค์ประกอบและบริการ",
+        "course_description_eng": "Communication concepts: wired. Wireless and cellular networks. Components of computer communications and networks.Type of computer networks. Protocol standards and layers. Application layer protocols. Network application architectures and programming. Transport-layer protocols. Software defined networks. Cloud computing. Components and services.",
+        "pre_requisite": "วิชาที่ต้องเรียนมาก่อน: 01418331"
+    }
+]

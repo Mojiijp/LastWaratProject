@@ -1,0 +1,80 @@
+<%- include('includes/head.ejs')%>
+</head>
+    <body id="page-top">
+        <%- include('includes/nav.ejs')%>
+        <section>
+            <!-- <header class="masthead text-center text-white"> -->
+                <div class="text-center align-items-center pt-5 mt-5">
+                    <div class="container px-1">
+                        <h2 class="masthead-subheading mb-0">HELLO ADMIN👋</h2>
+                    </div>
+                </div> 
+            <!-- </header> -->
+            
+
+            <form action="/admin" method="post">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="form-outline d-grid col-5 mx-3 mb-2 mt-2">
+                        <label class="form-label" for="form2Example11">รหัสอาจารย์</label>
+                        <input type="รหัสอาจารย์" id="form2Example11" name="รหัสอาจารย์" class="form-control"
+                            placeholder="รหัสอาจารย์" />
+                    </div>
+
+                    <div class="form-outline d-grid col-5 mx-3 mb-2 mt-2">
+                        <label class="form-label" for="form2Example22">Name</label>
+                        <input type="Name" id="form2Example22" name="Name" class="form-control"
+                            placeholder="Name" />
+                    </div>
+               
+
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label class="form-label" for="form2Example22">ชื่อ</label>
+                        <input type="ชื่อ" id="form2Example22" name="ชื่อ" class="form-control"
+                            placeholder="ชื่อ" />
+                    </div>
+
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label class="form-label" for="form2Example22">Surname</label>
+                        <input type="Surname" id="form2Example22" name="Surname" class="form-control"
+                            placeholder="Surname" />
+                    </div>
+                
+
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label class="form-label" for="form2Example22">นามสกุล</label>
+                        <input type="นามสกุล" id="form2Example22" name="นามสกุล" class="form-control"
+                            placeholder="นามสกุล" />
+                    </div>
+
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label class="form-label" for="form2Example22">E-mail</label>
+                        <input type="E-mail" id="form2Example22" name="E-mail" class="form-control"
+                            placeholder="E-mail" />
+                    </div>
+            
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label class="form-label" for="form2Example22">ห้องทำงาน</label>
+                        <input type="ห้องทำงาน" id="form2Example22" name="ห้องทำงาน" class="form-control"
+                            placeholder="ห้องทำงาน" />
+                    </div>
+                    
+                    <div class="form-outline d-grid col-5 mx-3 mb-2">
+                        <label for="formFile" class="form-label">Upload image</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                </div>
+                
+                <div class="text-center pt-1 mb-1 pb-1 mt-2">
+                <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" 
+                    type="submit" name="submit">Add Staff
+                </button>
+                </div>
+            </form>
+        </section>
+        <%- include('includes/footer.ejs')%>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+    
+</html>
