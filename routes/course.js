@@ -8,4 +8,11 @@ router.get('/course', (req, res, next) => {
     })
 })
 
+router.get("/course",(req, res, next) => {
+    res.render("cscourse", {
+        path : '/course'
+    })
+    res.redirect("/course/cscourse")
+})
+
 module.exports = router;
