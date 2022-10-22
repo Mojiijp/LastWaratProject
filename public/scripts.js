@@ -9,12 +9,12 @@
 function auth(){
   var email = document.getElementById("email").value
   var password = document.getElementById("password").value
-    if (email == "admin@ku.th" && password == "123456") {
-      alert("✔ เข้าสู่ระบบสำเร็จ")
+    if (email == "admin@ku.th" && password == "123456") 
+    {
       window.location = "http://localhost:3000/admin/add-staff"
     }
     else{
-      alert("❌ อีเมลหรือรหัสผ่านไม่ถูกต้อง")
+      alert("อีเมลหรือรหัสผ่านไม่ถูกต้อง")
       return
     }
 }

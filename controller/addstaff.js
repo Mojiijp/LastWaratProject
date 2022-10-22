@@ -8,12 +8,12 @@ exports.getAdmin = (req, res, next) => {
 }
 
 exports.postAdmin = (req, res, next) => {
-    // const {email, password } = req.body;
-    // if (email === "admin@ku.th" && password === "123456") {
-    //     res.redirect("/admin/add-staff");
-    // }else{
-    //     res.redirect("/admin");
-    // }
+    const {email, password } = req.body;
+    if (email == "admin@ku.th" && password == "123456") {
+        res.redirect("/admin/add-staff");
+    }else{
+        res.redirect("/admin");
+    }
     res.redirect("/admin/add-staff")
 }
 

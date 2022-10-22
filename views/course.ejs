@@ -30,8 +30,18 @@
                     </tr>
                   </thead>
                   <tbody>
+                    <% for (let courses of course) { %>
+                      <tr>
+                        <th scope="row"><a href="/course/cs<%= courses.id %>"><%= courses.id %></a></th>
+                        <td><%= courses.sub_th %></td>
+                        <td><%= courses.sub_eng %></td>
+                        <td><%= courses.credit %></td>
+                      </tr>
+                    <% } %>
+
+
                     
-                    <tr>
+                    <!-- <tr>
                       <th scope="row"><a href="/course/cs01418113">01418113</a></th>
                       <td>การโปรแกรมคอมพิวเตอร์</td>
                       <td>(Computer Programming)</td>
@@ -82,7 +92,7 @@
 
                     <tr>
                       <th scope="row"><a href="/course/cs01418233">01418233</a></th>
-                      <td>ภาษาแอสเซมบลีและสถาปัตยกรรมคอมพิวเตอร์"</td>
+                      <td>ภาษาแอสเซมบลีและสถาปัตยกรรมคอมพิวเตอร์</td>
                       <td>(Assembly Language and Computer Architecture)</td>
                       <td>4(4-0-8)</td>
                     </tr>
@@ -134,7 +144,7 @@
                       <td>หลักการการสื่อสารคอมพิวเตอร์และการประมวลผลบนคลาวด์</td>
                       <td>(Computer Communications and Cloud Computing Principles)</td>
                       <td>3(3-0-6)</td>
-                    </tr>
+                    </tr> -->
 
                   </tbody>
               </table>

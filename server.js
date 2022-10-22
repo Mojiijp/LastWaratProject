@@ -23,11 +23,8 @@ app.use(express.json())
 app.use("/", homepage)
 app.use("/", staff)
 app.use("/", course)
-app.use("/", cscourse)
+app.use("/course", cscourse)
 app.use("/", admin)
 app.use("/admin", addstaff)
-
-
-
 
 app.listen(3000); //localhost3000
