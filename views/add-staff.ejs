@@ -12,55 +12,46 @@
             <!-- </header> -->
             
 
-            <form action="/admin" method="post">
+            <form action="/admin/add-staff" method="post">
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="form-outline d-grid col-5 mx-3 mb-2 mt-2">
                         <label class="form-label" for="form2Example11">รหัสอาจารย์</label>
-                        <input type="รหัสอาจารย์" id="form2Example11" name="รหัสอาจารย์" class="form-control"
+                        <input type="รหัสอาจารย์" name="st_id" id="st_id" class="form-control"
                             placeholder="รหัสอาจารย์" required/>
                     </div>
 
                     <div class="form-outline d-grid col-5 mx-3 mb-2 mt-2">
-                        <label class="form-label" for="form2Example22">Name</label>
-                        <input type="Name" id="form2Example22" name="Name" class="form-control"
-                            placeholder="Name" required/>
+                        <label class="form-label" for="form2Example22">Name - Surname</label>
+                        <input type="Name" name="st_name_eng" id="st_name_eng" class="form-control"
+                            placeholder="ชื่อภาษาอังกฤษ" required/>
                     </div>
                
 
                     <div class="form-outline d-grid col-5 mx-3 mb-2">
-                        <label class="form-label" for="form2Example22">ชื่อ</label>
-                        <input type="ชื่อ" id="form2Example22" name="ชื่อ" class="form-control"
-                            placeholder="ชื่อ" required/>
+                        <label class="form-label" for="form2Example22">ชื่อ - นามสกุล</label>
+                        <input type="ชื่อ" name="st_name" id="st_name" class="form-control"
+                            placeholder="ชื่อภาษาไทย" required/>
                     </div>
 
-                    <div class="form-outline d-grid col-5 mx-3 mb-2">
-                        <label class="form-label" for="form2Example22">Surname</label>
-                        <input type="Surname" id="form2Example22" name="Surname" class="form-control"
-                            placeholder="Surname" required/>
-                    </div>
-                
 
-                    <div class="form-outline d-grid col-5 mx-3 mb-2">
-                        <label class="form-label" for="form2Example22">นามสกุล</label>
-                        <input type="นามสกุล" id="form2Example22" name="นามสกุล" class="form-control"
-                            placeholder="นามสกุล" required/>
-                    </div>
-
+                   
                     <div class="form-outline d-grid col-5 mx-3 mb-2">
                         <label class="form-label" for="form2Example22">E-mail</label>
-                        <input type="E-mail" id="form2Example22" name="E-mail" class="form-control"
+                        <input type="E-mail" name="st_email" id="st_email" class="form-control"
                             placeholder="E-mail" required/>
                     </div>
             
                     <div class="form-outline d-grid col-5 mx-3 mb-2">
                         <label class="form-label" for="form2Example22">ห้องทำงาน</label>
-                        <input type="ห้องทำงาน" id="form2Example22" name="ห้องทำงาน" class="form-control"
+                        <input type="ห้องทำงาน" name="st_office" id="st_office" class="form-control"
                             placeholder="ห้องทำงาน" required/>
                     </div>
                     
                     <div class="form-outline d-grid col-5 mx-3 mb-2">
                         <label for="formFile" class="form-label">Upload image</label>
-                        <input class="form-control" type="file" id="formFile">
+                        <input type="รูปภาพ" name="st_image" id="st_image" class="form-control"
+                            placeholder="Copy image link" required/>
+                        <!-- <input class="form-control" type="file" name="st_image" id="st_image" required/> -->
                     </div>
                 </div>
                 

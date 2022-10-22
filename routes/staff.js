@@ -1,11 +1,10 @@
+const path = require('path');
 const express = require('express');
 
 const router = express.Router();
 
-router.get('/staff', (req, res, next) => {
-    res.render("staff", {
-        path : '/staff'
-    })
-})
+const addstaffController = require('../controller/addstaff');
+
+router.get('/staff',addstaffController.getStaff)
 
 module.exports = router;

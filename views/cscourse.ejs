@@ -12,12 +12,17 @@
             </div>
         </header>
         <!-- Content section 1-->
-        <section id="scroll">
-            <div class="container px-5">
-                <div class="row align-items-center">
-                    <h2 class="text-center mt-5">สวัสดีนี่คือรายวิชา cs01418113</h2>
-                </div>
-            </div>
+        <section id="">
+            <% data.forEach(cou => { %>
+                <% if(cou.course_id == course_id){  %>
+                <h1 style="text-align: center; padding-top: 12rem;"><%= cou.course_id%> <%= cou.course_name%></h1><br>
+                <%= cou.des_head%>
+                <br>
+                <p><%= cou.unit%></p>
+                <br>
+                <p><%= cou.description%></p>
+                <% } %>
+              <% }) %>
         </section>
         
         <!-- Footer-->

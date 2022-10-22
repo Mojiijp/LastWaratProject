@@ -4,15 +4,13 @@ const express = require('express');
 
 const router = express.Router();
 
+const staff_add = [];
 
-router.get("/admin", (req, res, next) => {
-    // res.render("add-staff", {
-    //     path : "/admin/add-staff",
-    // })
-    res.render("add-staff", {
-        data: staff,
-        path : "/admin/add-staff",
-    });
-})
+const addstaffController = require('../controller/addstaff');
 
-module.exports = router;
+router.get('/add-staff',addstaffController.getAddStaff)
+
+router.post('/add-staff',addstaffController.postAddStaff) 
+
+module.exports = router
+exports.staff_add = staff_add

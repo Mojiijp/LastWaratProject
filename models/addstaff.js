@@ -5,20 +5,25 @@ const p = path.join(
     "data",
     "staff.json"
 )
-module.exports = class Product {
-    constructor(t) {
-        this.title = t
+
+module.exports = class Staff {
+    constructor(id, name_eng, name, email, office, image) {
+        this.st_id = id;
+        this.st_name_eng = name_eng;
+        this.st_name = name;
+        this.st_email = email;
+        this.st_office = office;
+        this.st_image = image;
     }
-    
     save() {
 
             fs.readFile(p, (err, fileContent) => {
-                let staff = [];
+                let staffs = [];
                 if (!err) {
-                    staff = JSON.parse(fileContent);
+                    staffs = JSON.parse(fileContent);
                 }
-                staff.push(this)
-                fs.writeFile(p, JSON.stringify(staff), (err) => {
+                staffs.push(this)
+                fs.writeFile(p, JSON.stringify(staffs), (err) => {
                     console.log(err)
                 });
             });
