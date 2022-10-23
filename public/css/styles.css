@@ -11885,7 +11885,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #FF577F 20%, #FFD384 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11945,8 +11945,20 @@ border-top-right-radius: .3rem;
 border-bottom-right-radius: .3rem;
 }
 
+.card{
+  box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+  background-color: #FFF7E9;
+}
+
 .card__image{
   width: 1px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 }

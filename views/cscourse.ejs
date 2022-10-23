@@ -7,7 +7,7 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-1">
-                    <h2 class="masthead-subheading mb-0">รหัสวิชา <%= coursedt.id %></h2>
+                    <h2 class="masthead-subheading mb-0">รหัสวิชา <%= coursedt.course_id %></h2>
                 </div>
             </div>
         </header>
@@ -15,20 +15,20 @@
         <section id="">
           
             
-            <h5><i class="fa-solid fa-desktop"></i> รหัสวิชา <%= coursedt.id %></h5>
-            <h2><%= coursedt.subject_th %></h2>
-            <h4><%= coursedt.subject_eng %></h4>
+            <h5><i class="fa-solid fa-desktop"></i> รหัสวิชา <%= coursedt.course_id %></h5>
+            <h2><%= coursedt.course_name %></h2>
+            <h4><%= coursedt.course_name_eng %></h4>
             <ul>
                 <li class="description_study">
                     <strong>หน่วยกิต (บรรยาย-ปฎิบัติการ): </strong><%= coursedt.credit %>
                 </li>
-                    <% if (coursedt.pre_study_id !=  "") { %>
+                    <% if (coursedt.pre_requisite !=  "") { %>
                         <li class="description_study">
-                            <strong>วิชาที่ต้องเรียนมาก่อน: </strong><a href="/course/cs<%= coursedt.pre_study_id %>"><%= coursedt.pre_study_id %></a>
+                            <strong><%= coursedt.pre_requisite %></strong>
                         </li>
                     <% } %>
-                        <li><strong>เนื้อหา: </strong><%= coursedt.description_th %></li>
-                        <li><%= coursedt.description_eng %></li>
+                        <li><strong>เนื้อหา: </strong><%= coursedt.course_description %></li>
+                        <%= coursedt.course_description_eng %>
             </ul>
         </section>
         

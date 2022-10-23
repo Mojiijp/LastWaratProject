@@ -1,28 +1,26 @@
 <%- include('includes/head.ejs')%>
-<head>
+
+    <head>
+
     <body id="page-top">
-    <%- include('includes/nav.ejs')%>
-        <header class="masthead text-center text-white">
-            <div class="masthead-content">
-                <div class="container px-1">
-                    <h2 class="masthead-subheading mb-0">คณาจารย์</h2>
+        <%- include('includes/nav.ejs')%>
+            <header class="masthead text-center text-white">
+                <div class="masthead-content">
+                    <div class="container px-1">
+                        <h2 class="masthead-subheading mb-0">คณาจารย์</h2>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
-        <section id="scroll">
-            <div class="">
-                <h1 class="masthead-subheading mb-0 mt-5 ms-5 text-center">คณาอาจารย์ที่สอนในหลักสูตรวิทยาการคอมพิวเตอร์</h1>
-            </div>
+            <section id="scroll">
+                <div class="">
+                    <h1 class="masthead-subheading mb-5 mt-5 ms-5 text-center">
+                        คณาอาจารย์ที่สอนในหลักสูตรวิทยาการคอมพิวเตอร์</h1>
+                </div>
 
-            <main>
+                <main>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="d-flex justify-content-around">
-                            
-                            <!-- <div class="text-center pt-5">
+                    <!-- <div class="text-center pt-5">
                                 <img src="https://cs.sci.ku.ac.th/wp-content/uploads/2019/02/BOY_9566.jpg"
                                     style="width: 250px;" alt="logo">
                                 <h6 class="mt-1 mb-2 pb-1">อ.สุทธิพงษ์ หมื่นตาบุตร</h6>
@@ -31,33 +29,41 @@
                                 <h6 class="mt-1 mb-2 pb-1">suttipong.me@ku.th</h6>
                             </div>   -->
 
+
+                    <% if (prods.length> 0 ) { %>
+                        <div class="grid">
+                            <% for (let p of prods) { %>
+                                <article class="card product-item">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="text-center pt-5">
+                                            <img src="<%= p.st_image %>" style="width: 300px;" alt="logo">
+                                            <h6 class="mt-1 mb-2 pb-1">
+                                                <%= p.st_id %>
+                                            </h6>
+                                            <h6 class="mt-1 mb-2 pb-1">
+                                                <%= p.st_name %>
+                                            </h6>
+                                            <h6 class="mt-1 mb-2 pb-1">
+                                                <%= p.st_name_eng %>
+                                            </h6>
+                                            <h6 class="mt-1 mb-2 pb-1">ห้องทำงาน <%= p.st_office %>
+                                            </h6>
+                                            <h6 class="mt-1 mb-2 pb-1">
+                                                <%= p.st_email %>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <% } %>
                         </div>
-                    </div>
+                        <% }else { %>
+                            <h1 class="text-center mt-3">No Staff</h1>
+                            <% } %>
+
+                </main>
+
                 </div>
-
-                <% if (prods.length > 0 ) { %>
-                    <% for (let p of prods) { %>
-                        <div class="row">
-                            <div class="col">
-                                <div class="d-flex justify-content-center">
-                                    <div class="text-center pt-5">
-                                        <img src="<%= p.st_image %>" style="width: 250px;" alt="logo">
-                                        <h6 class="mt-1 mb-2 pb-1"><%= p.st_id %></h6>
-                                        <h6 class="mt-1 mb-2 pb-1"><%= p.st_name %></h6>
-                                        <h6 class="mt-1 mb-2 pb-1"><%= p.st_name_eng %></h6>
-                                        <h6 class="mt-1 mb-2 pb-1">ห้องทำงาน <%= p.st_office %></h6>
-                                        <h6 class="mt-1 mb-2 pb-1"><%= p.st_email %></h6>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    <% } %>
-                <% }else { %>
-                    <h1 class="text-center mt-3">No Staff</h1>
-                <% } %>
-
-            </main>
-                
-            </div> 
-        </section>
+            </section>
+            <%- include('includes/footer.ejs')%>
     </body>

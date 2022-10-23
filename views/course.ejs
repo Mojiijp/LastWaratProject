@@ -32,9 +32,9 @@
                   <tbody>
                     <% for (let courses of course) { %>
                       <tr>
-                        <th scope="row"><a href="/course/cs<%= courses.id %>"><%= courses.id %></a></th>
-                        <td><%= courses.sub_th %></td>
-                        <td><%= courses.sub_eng %></td>
+                        <th scope="row"><a href="/course/cs<%= courses.course_id %>"><%= courses.course_id %></a></th>
+                        <td><%= courses.course_name %></td>
+                        <td><%= courses.course_name_eng %></td>
                         <td><%= courses.credit %></td>
                       </tr>
                     <% } %>
